@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <div class="link">
+          <a href="./index.html" class="pages"
+            ><i class="fas fa-check-square"></i>Pomodoro</a
+          >
+          <a href="./dashboard.html" class="pages"
+            ><i class="fas fa-clock"></i>Dashboard</a
+          >
+          <a href="#" class="pages"><i class="far fa-chart-bar"></i>Report</a>
+        </div>
+        <div class="greeting">Hi Nydia</div>
+        <a href="#"
+          ><div class="avatar">
+            <img
+              src="https://upload.cc/i1/2019/07/09/ZFrJuN.png
+"
+              alt=""
+            /></div
+        ></a>
+      </div>
+      <!--end of header -->
+
+      <div class="dash-main">
+        <div class="all_list">
+          <div class="todo">
+            <h1>To do</h1>
+            <div class="todo_items">
+              <a href="#" class="circle"><i class="far fa-circle"></i></a>Task 3
+              <a href="#" class="arrow"><i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <!-- end of todo -->
+
+          <div class="progress">
+            <h1>In progess</h1>
+            <div class="pg_items">
+              <a href="#" class="circle"><i class="far fa-circle"></i></a>Task 2
+              <a href="#" class="arrow"><i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <!--end of progress-->
+          <div class="done">
+            <h1>Done</h1>
+            <div class="done_items">
+              <a href="#" class="circle"><i class="far fa-circle"></i></a>Task 1
+              <a href="#" class="arrow"><i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <!--end of done-->
+        </div>
+        <!--end of all_list -->
+
+        <form action="" class="edit">
+          <div class="edit_items">
+            <input type="text" placeholder="Task" class="task" /><br />
+            <i class="fas fa-calendar-day"></i
+            ><input type="text" placeholder="Due Date" class="due" />
+            <i class="fas fa-stopwatch"></i
+            ><input type="text" placeholder="Esimated" class="esm" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Task description"
+              class="dsp"
+            ></textarea>
+          </div>
+          <div class="btn_items">
+            <input type="submit" value="OK!" class="ok" />
+          </div>
+        </form>
+        <!--end of edit -->
+      </div>
+      <!--end of main-->
+    </div>
+    <!--end of wrap -->
+    <script src="https://kit.fontawesome.com/11dc26bb6c.js"></script>
+  </body>
+</html>

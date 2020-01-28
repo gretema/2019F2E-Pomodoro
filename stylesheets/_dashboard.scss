@@ -1,0 +1,83 @@
+.dash-main {
+  display: flex;
+  padding-bottom: 100px;
+}
+.all_list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  padding: 0 30px;
+}
+.all_list,
+.all_list a {
+  color: #ffffff;
+}
+.all_list h1 {
+  font-size: 36px;
+  padding: 10px;
+}
+.all_list .circle {
+  padding-right: 10px;
+}
+.all_list .arrow {
+  position: absolute;
+  right: 0px;
+  text-decoration: none;
+}
+.todo_items,
+.pg_items,
+.done_items {
+  position: relative;
+  width: 500px;
+  text-decoration: none;
+  font-size: 32px;
+  padding: 10px;
+  border-bottom: #585858 1px solid;
+}
+
+/* start of edit(form) */
+.edit {
+  width: 600px;
+  background: #585858;
+  border-radius: 5px;
+  padding: 20px;
+}
+.task {
+  width: 600px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.edit i {
+  color: #ffffff;
+  font-size: 30px;
+  padding-right: 15px;
+}
+.due {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+.esm {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
+.dsp {
+  width: 600px;
+  height: 280px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.ok {
+  width: 100px;
+  font-size: 36px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #62c2a5;
+  color: #ffffff;
+  cursor: pointer;
+}

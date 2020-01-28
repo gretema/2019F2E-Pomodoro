@@ -1,0 +1,55 @@
+.index-main {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.setting {
+  padding: 100px 80px 0 0;
+  color: #ffffff;
+}
+.setting i {
+  padding-right: 5px;
+}
+.ringtone {
+  font-size: 42px;
+}
+.ring_1,
+.ring_2 {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+}
+.countdown {
+  font-size: 130px;
+  margin-bottom: 80px;
+}
+
+.play a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+}
+.fa-play {
+  font-size: 50px;
+  padding-left: 20px;
+}
+.play span {
+  font-size: 40px;
+  padding-left: 30px;
+}
+.clock {
+  position: relative;
+  width: 616px;
+  height: 616px;
+  border: #62c2a5 10px solid;
+  border-radius: 50%;
+}
+.hand {
+  border: #62c2a5 5px solid;
+  width: 230px;
+  transform: rotate(90deg);
+  transform-origin: center center;
+  position: absolute;
+  right: 185px;
+  top: 170px;
+}

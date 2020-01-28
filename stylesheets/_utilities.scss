@@ -1,0 +1,44 @@
+.wrap {
+  width: 1500px;
+  margin: 0 auto;
+  background: #24181c;
+}
+
+* {
+  font-family: Segoe UI;
+}
+.header {
+  display: flex;
+  position: relative;
+  padding: 50px;
+  color: #62c2a5;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.link i {
+  font-size: 45px;
+  padding-right: 20px;
+}
+.pages {
+  justify-content: flex-start;
+  padding: 5px;
+  text-decoration: none;
+  color: #62c2a5;
+  display: inline-block;
+}
+
+.pages:hover {
+  background: #666666;
+  border-radius: 5px;
+}
+.greeting,
+.avatar {
+  justify-content: flex-end;
+}
+.greeting {
+  padding: 0 20px 0 300px;
+}
+.avatar img {
+  width: 40%;
+}
