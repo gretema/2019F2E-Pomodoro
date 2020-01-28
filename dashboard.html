@@ -42,7 +42,7 @@
           </div>
           <!-- end of todo -->
 
-          <div class="progress">
+          <div class="progress-section">
             <h1>In progess</h1>
             <div class="pg_items">
               <a href="#" class="circle"><i class="far fa-circle"></i></a>Task 2
@@ -60,26 +60,55 @@
           <!--end of done-->
         </div>
         <!--end of all_list -->
+        <form class="ml-5">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="Task"
+            />
+          </div>
+          <div class="form-row">
+            <div class="input-group mb-3 col-6">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fas fa-calendar-day"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Due Date"
+                aria-label="duedate"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <div class="input-group mb-3 col-6">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="fas fa-stopwatch"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Esimated Time"
+                aria-label="esimatedtime"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </div>
 
-        <form action="" class="edit">
-          <div class="edit_items">
-            <input type="text" placeholder="Task" class="task" /><br />
-            <i class="fas fa-calendar-day"></i
-            ><input type="text" placeholder="Due Date" class="due" />
-            <i class="fas fa-stopwatch"></i
-            ><input type="text" placeholder="Esimated" class="esm" />
+          <div class="form-group">
             <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Task description"
-              class="dsp"
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              placeholder="Task Desciption"
+              rows="8"
             ></textarea>
           </div>
-          <div class="btn_items">
-            <input type="submit" value="OK!" class="ok" />
-          </div>
+          <button type="submit" class="btn ok">OK!</button>
         </form>
         <!--end of edit -->
       </div>
