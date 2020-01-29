@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/all.css" />
   </head>
   <body>
-    <div class="wrap">
+    <div class="wrap container-fluid">
       <div class="header">
         <div class="link">
           <a href="./index.html" class="pages"
@@ -17,100 +17,112 @@
           <a href="./dashboard.html" class="pages"
             ><i class="fas fa-clock"></i>Dashboard</a
           >
-          <a href="#" class="pages"><i class="far fa-chart-bar"></i>Report</a>
         </div>
-        <div class="greeting">Hi Nydia</div>
-        <a href="#"
-          ><div class="avatar">
+        <div class="ml-auto d-flex align-items-center pr-4">
+          <div class="greeting d-inline">Hi Nydia</div>
+          <a href="#" class="d-inline">
             <img
-              src="https://upload.cc/i1/2019/07/09/ZFrJuN.png
-"
-              alt=""
-            /></div
-        ></a>
+              src="https://upload.cc/i1/2019/07/09/ZFrJuN.png"
+              style="width:
+            50px;"
+          /></a>
+        </div>
       </div>
       <!--end of header -->
 
       <div class="dash-main">
-        <div class="all_list">
-          <div class="todo">
-            <h1>To do</h1>
-            <div class="todo_items">
-              <a href="#" class="circle"><i class="far fa-circle"></i></a>Task 3
-              <a href="#" class="arrow"><i class="fas fa-chevron-right"></i></a>
-            </div>
-          </div>
-          <!-- end of todo -->
+        <div class="row">
+          <div class="col-md-6 mr-auto">
+            <div class="all_list">
+              <div class="todo">
+                <h1>To do</h1>
+                <div class="todo_items">
+                  <a href="#" class="circle"><i class="far fa-circle"></i></a
+                  >Task 3
+                  <a href="#" class="arrow"
+                    ><i class="fas fa-chevron-right"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- end of todo -->
 
-          <div class="progress-section">
-            <h1>In progess</h1>
-            <div class="pg_items">
-              <a href="#" class="circle"><i class="far fa-circle"></i></a>Task 2
-              <a href="#" class="arrow"><i class="fas fa-chevron-right"></i></a>
+              <div class="progress-section">
+                <h1>In progess</h1>
+                <div class="pg_items">
+                  <a href="#" class="circle"><i class="far fa-circle"></i></a
+                  >Task 2
+                  <a href="#" class="arrow"
+                    ><i class="fas fa-chevron-right"></i
+                  ></a>
+                </div>
+              </div>
+              <!--end of progress-->
+              <div class="done">
+                <h1>Done</h1>
+                <div class="done_items">
+                  <a href="#" class="circle"><i class="far fa-circle"></i></a
+                  >Task 1
+                  <a href="#" class="arrow"
+                    ><i class="fas fa-chevron-right"></i
+                  ></a>
+                </div>
+              </div>
+              <!--end of done-->
             </div>
           </div>
-          <!--end of progress-->
-          <div class="done">
-            <h1>Done</h1>
-            <div class="done_items">
-              <a href="#" class="circle"><i class="far fa-circle"></i></a>Task 1
-              <a href="#" class="arrow"><i class="fas fa-chevron-right"></i></a>
-            </div>
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="Task"
+                />
+              </div>
+              <div class="form-row">
+                <div class="input-group mb-3 col-6">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="fas fa-calendar-day"></i
+                    ></span>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Due Date"
+                    aria-label="duedate"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3 col-6">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="fas fa-stopwatch"></i
+                    ></span>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Esimated Time"
+                    aria-label="esimatedtime"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  placeholder="Task Desciption"
+                  rows="8"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn ok">OK!</button>
+            </form>
           </div>
-          <!--end of done-->
         </div>
-        <!--end of all_list -->
-        <form class="ml-5">
-          <div class="form-group">
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress"
-              placeholder="Task"
-            />
-          </div>
-          <div class="form-row">
-            <div class="input-group mb-3 col-6">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1"
-                  ><i class="fas fa-calendar-day"></i
-                ></span>
-              </div>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Due Date"
-                aria-label="duedate"
-                aria-describedby="basic-addon1"
-              />
-            </div>
-            <div class="input-group mb-3 col-6">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1"
-                  ><i class="fas fa-stopwatch"></i
-                ></span>
-              </div>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Esimated Time"
-                aria-label="esimatedtime"
-                aria-describedby="basic-addon1"
-              />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              placeholder="Task Desciption"
-              rows="8"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn ok">OK!</button>
-        </form>
-        <!--end of edit -->
       </div>
       <!--end of main-->
     </div>

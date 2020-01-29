@@ -10952,11 +10952,7 @@ table {
 }
 
 .greeting {
-  padding: 0 20px 0 300px;
-}
-
-.avatar img {
-  width: 40%;
+  padding: 0 20px 0 0;
 }
 
 .index-main {
@@ -11045,7 +11041,6 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 50px;
   padding: 0 30px;
 }
 
